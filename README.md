@@ -1,11 +1,7 @@
-Background image owned by client and may not be used without permission.
+The backgroundimage is borrowed from the client.
 
-Gallery images are temporary and are from Wikimedia commons. 
+The other images are taken directly from unsplash free.
 
-Icons are from Bootstrap Icons library.
+Icons are from bootstrap icon library.
 
-Fonts are from Google font library.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Fonts are from google font library. 

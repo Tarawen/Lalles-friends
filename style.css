@@ -132,21 +132,21 @@ em {
   padding: 1px;
 }
 
-#backgroundimage_text h2 {
-  font-family: Limelight;
+#introduction_header {
+  font-family: Limelight, Arial;
   font-size: 1.7em;
   margin: .2em .1em;
 }
 
-h3 {
-  font-family: PoiretOne;
+h2, h3 {
+  font-family: PoiretOne, Arial;
   font-size: 1.2em;
   margin: 1em .2em 0;
 }
 
-h5 {
-  font-weight: 450;
-  font-family: Arial, Helvetica, sans-serif;
+h4 {
+  font-family: PoiretOne, Arial, Helvetica, sans-serif;
+  font-size: .9em;
   margin: 1em .2em 0;
 }
 
@@ -173,13 +173,14 @@ h5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  grid-auto-flow: column;
 }
 
 .image_part { /*styles every image*/
   background-color: rgb(172, 46, 4);
   border: solid var(--main-color) .05em;
   border-radius: 5px;
-  height: 150px;
+  height: 110px;
   width: auto;
   margin: .4em auto;
   box-shadow: 0 8px 10px -4px;
@@ -243,7 +244,7 @@ footer p {
   }
 
   .image_part {
-    height: 200px;
+    height: 150px;
   }
 
   .contact_details {
@@ -307,11 +308,6 @@ footer p {
     margin: .4em;
   }
 
-  .images_grid {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-
   .image_part {
     height: 250px;
   }
@@ -355,15 +351,16 @@ footer p {
   }
 
   .images_grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: row;
   }
 
   .image_part {
-    height: 280px;
+    height: 270px;
   }
 
-  h5 {
+  h4 {
     margin: 1.3em .2em 0;
     font-weight: 600;
   }
